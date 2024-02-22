@@ -17,7 +17,7 @@ const shopify = shopifyApi({
   adminApiAccessToken: API_ADMIN_ACCESS_TOKEN,
   apiVersion: LATEST_API_VERSION,
   scopes: ['read_products', 'read_online_store_pages', 'read_product_listings', 'read_product_feeds'],
-  hostName: API_HOSTNAME, // negrok url
+  hostName: API_HOSTNAME, // ngrok url
   isEmbeddedApp: false,
   isCustomStoreApp: true,
   restResources,
